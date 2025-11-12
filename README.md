@@ -46,8 +46,14 @@ python manage.py tailwind install
 python manage.py migrate
 ```
 
-8. And finally, run the server:
+8. Run the server:
 
 ```
 python manage.py runserver
+```
+
+9. And on a separate terminal instance, run a watcher for TailwindCSS:
+
+```
+python manage.py tailwind start
 ```
