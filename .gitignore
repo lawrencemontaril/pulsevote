@@ -1,6 +1,12 @@
-.env/
 env/
+.env/
 environment/
-venv/
-*.sqlite
-*.sqlite3
+.environment/
+
+*.sqlite*
+__pycache__/
+*.pyc
+**/migrations/*.pyc
+
+media/
+staticfiles/
